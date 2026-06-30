@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casefile-analyzer.org/schemas/case.schema.json",
+  "title": "Case",
+  "type": "object",
+  "required": ["caseId", "title", "createdAt", "status", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "caseId": { "type": "string", "pattern": "^case_[a-zA-Z0-9_-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "uploaded", "extracting", "analyzing", "report_ready", "error"]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceId", "filename", "mediaType", "storageKey"],
+        "additionalProperties": false,
+        "properties": {
+          "sourceId": { "type": "string" },
+          "filename": { "type": "string" },
+          "mediaType": { "type": "string" },
+          "storageKey": { "type": "string" },
+          "uploadedAt": { "type": "string", "format": "date-time" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

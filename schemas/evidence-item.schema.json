@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casefile-analyzer.org/schemas/evidence-item.schema.json",
+  "title": "EvidenceItem",
+  "type": "object",
+  "required": ["evidenceId", "caseId", "sourceId", "kind", "text", "sourceRef"],
+  "additionalProperties": false,
+  "properties": {
+    "evidenceId": { "type": "string" },
+    "caseId": { "type": "string" },
+    "sourceId": { "type": "string" },
+    "kind": {
+      "type": "string",
+      "enum": ["message", "document_text", "transcript_segment", "ocr_text", "metadata"]
+    },
+    "text": { "type": "string" },
+    "speakerOrSender": { "type": "string" },
+    "occurredAt": { "type": "string", "format": "date-time" },
+    "sourceRef": {
+      "type": "object",
+      "required": ["filename"],
+      "additionalProperties": false,
+      "properties": {
+        "filename": { "type": "string" },
+        "lineStart": { "type": "integer", "minimum": 1 },
+        "lineEnd": { "type": "integer", "minimum": 1 },
+        "page": { "type": "integer", "minimum": 1 },
+        "timestampStart": { "type": "string" },
+        "timestampEnd": { "type": "string" },
+        "segmentId": { "type": "string" }
+      }
+    },
+    "metadata": { "type": "object", "additionalProperties": true }
+  }
+}

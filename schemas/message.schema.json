@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://casefile-analyzer.org/schemas/message.schema.json",
+  "title": "Message",
+  "type": "object",
+  "required": ["messageId", "caseId", "sourceId", "sender", "text", "sourceRef"],
+  "additionalProperties": false,
+  "properties": {
+    "messageId": { "type": "string" },
+    "caseId": { "type": "string" },
+    "sourceId": { "type": "string" },
+    "sentAt": { "type": "string", "format": "date-time" },
+    "sender": { "type": "string" },
+    "recipient": { "type": "string" },
+    "text": { "type": "string" },
+    "isSystemMessage": { "type": "boolean", "default": false },
+    "sourceRef": {
+      "type": "object",
+      "required": ["filename", "lineStart"],
+      "additionalProperties": false,
+      "properties": {
+        "filename": { "type": "string" },
+        "lineStart": { "type": "integer", "minimum": 1 },
+        "lineEnd": { "type": "integer", "minimum": 1 },
+        "rawTimestamp": { "type": "string" }
+      }
+    }
+  }
+}
