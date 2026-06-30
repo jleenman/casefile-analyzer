@@ -18,6 +18,8 @@
 - Onbedoelde geneste `casefile-analyzer/` map met `.git` verwijderd.
 - Projectroot geïnitialiseerd als git-repository op branch `main`.
 - Lokaal karakter en onderbrekingsrisico van automatisering gedocumenteerd.
+- Eerste commit gepubliceerd naar publieke GitHub-repository: https://github.com/jleenman/casefile-analyzer.
+- Publicatiegegevens vastgelegd in README en `.codex` state.
 
 ### Volgende sessie
 

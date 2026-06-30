@@ -14,6 +14,7 @@
 - Repository Operating Manual.
 - Promptarchiefmap voor toekomstige prompt factory-wijzigingen.
 - Dagelijkse Codex-automatisering voor het uitvoeren van `.codex/next-task.md`.
+- Publieke GitHub-repository: https://github.com/jleenman/casefile-analyzer.
 
 ### Gewijzigd
 
@@ -21,6 +22,7 @@
 - Promptmap is aangewezen als door Codex beheerde prompt factory.
 - Projectroot is geïnitialiseerd als git-repository op branch `main`.
 - Automatiseringsdocumentatie verduidelijkt dat de huidige run lokaal is, niet cloud-hosted.
+- README en `.codex` state bevatten nu de GitHub-publicatiegegevens.
 
 ### Verwijderd
 

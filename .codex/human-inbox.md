@@ -12,12 +12,13 @@ Geen.
 
 | ID | Prioriteit | Vraag | Reden | Deadline | Impact | Wat Codex daarna kan doen |
 | --- | --- | --- | --- | --- | --- | --- |
-| HI-001 | P2 | Welke GitHub repository-owner wordt uiteindelijk gebruikt? | Nodig voor publicatieplan en Pages-instellingen | Voor R4 Public Beta | Zonder antwoord kan alleen generiek publicatieplan worden gemaakt | Releaseplan concreet maken |
 | HI-002 | P2 | Welke Cloudflare/R2 accountstrategie heeft de voorkeur? | Nodig voor latere serverless demo | Voor R2 MVP | Zonder antwoord blijft backend lokaal of mock-based | Worker/R2 configuratie voorbereiden |
 
 ## Verwerkt Archief
 
-Nog geen verwerkte vragen.
+| ID | Datum | Antwoord | Gevolg |
+| --- | --- | --- | --- |
+| HI-001 | 2026-06-30 | GitHub owner is `jleenman`; repository is `jleenman/casefile-analyzer` | Publicatieplan kan deze remote gebruiken |
 
 ## Vraagtemplate
 

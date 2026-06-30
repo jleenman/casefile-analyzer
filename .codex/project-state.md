@@ -8,6 +8,8 @@ Naam: `casefile-analyzer`
 
 Doel: open-source MVP voor het analyseren van omvangrijke communicatie- en documentdossiers met controleerbare bronverwijzingen.
 
+GitHub: https://github.com/jleenman/casefile-analyzer
+
 ## Huidige fase
 
 Fase: Planning
@@ -43,6 +45,7 @@ De repository wordt ingericht als zelforganiserend softwareproject. Iedere toeko
 - Repository Operating System is toegevoegd.
 - Dagelijkse Codex-automatisering is geconfigureerd in de Codex-app.
 - Open-source publicatiebasis is toegevoegd met MIT-licentie, contributing-richtlijnen en security policy.
+- Repository is publiek gepubliceerd op GitHub.
 
 ## Known Issues
 

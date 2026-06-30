@@ -2,6 +2,8 @@
 
 `casefile-analyzer` is een open-source MVP voor het analyseren van omvangrijke communicatie- en documentdossiers. Het project start documentatie- en planningsgericht: deze repository bevat eerst de visie, methodiek, scope, schema's, voorbeelden en toekomstige Codex-prompts. Er is in deze stap nog geen applicatiecode.
 
+GitHub: https://github.com/jleenman/casefile-analyzer
+
 ## Probleemstelling
 
 Professionals en betrokkenen krijgen soms grote hoeveelheden materiaal: WhatsApp-exports, transcripties, PDF's, DOCX-bestanden, tekstbestanden en later mogelijk audio/video. De relevante signalen zitten verspreid over duizenden regels, verschillende bestandssoorten en lange tijdlijnen. Handmatige analyse is traag, foutgevoelig en afhankelijk van vooraf weten waarnaar gezocht moet worden.
@@ -50,6 +52,8 @@ De beoogde low-budget architectuur:
 Status: planning/documentation first.
 
 Deze repository bevat eerst de inhoudelijke basis, schema's, voorbeelddata en prompts voor latere Codex-runs. Maak nog geen applicatiecode voordat scope, datacontracten, privacy-eisen en verificatiecriteria expliciet zijn vastgelegd.
+
+Publicatiestatus: publieke GitHub-repository op `main`.
 
 ## Open Source
 

@@ -6,6 +6,8 @@ Release: R0 - Planning
 
 Status: Actief
 
+Publicatie: https://github.com/jleenman/casefile-analyzer
+
 ## Releasefasen
 
 | Release | Naam | Status | Doel |
@@ -24,6 +26,7 @@ Status: Actief
 - Backlog en roadmap sturen volgende taken.
 - Human inbox en blocked flow zijn duidelijk.
 - Open-source licentie en basisbijdragerdocumentatie bestaan.
+- Publieke GitHub-repository bestaat.
 - Geen applicatiecode vereist.
 
 ## Promotiecriteria naar R1
